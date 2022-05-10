@@ -10,21 +10,24 @@ header {
 }
 .navbar {
     /* border: solid 2px  rgb(0, 0, 0); */
-    height: 50px;
+    height: 70px;
 }
 .navbar ul {
     display: inline;
     float: right;
+    margin-top: 50px;
+    margin-right: 15px;
 }
 .navbar li {
     display: inline;
+    margin: 5px;
 }
 .hero-image {
     background-image: url(/img/face.jpeg);
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     position: relative;
   }
   .hero-text {
