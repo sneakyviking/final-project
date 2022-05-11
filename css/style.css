@@ -5,6 +5,9 @@ body {
     background-image: url(/img/skyline.jpg);
     background-repeat: no-repeat;
 }
+body, html {
+  height: 100%;
+}
 header {
     background-image: url(/img/colorado.jpeg);
     background-size: contain;
@@ -58,9 +61,6 @@ header {
 h3 {
     text-align: center;
 }
-FOOTER {
-    color: aliceblue;
-}
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -91,15 +91,10 @@ input[type=text], select, textarea {
       color: rgb(181, 181, 181);
   }
 
-
-
-
-  body, html {
-    height: 100%;
-}
 footer {
-  background-color: rgba(180, 180, 180, .3);
-  width: 35%;
+  background-color: rgba(115, 115, 115, 0.5);
+  width: 37%;
+  color: aliceblue;
 }
 a {
   color: rgb(255, 255, 255);
