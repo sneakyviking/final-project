@@ -6,7 +6,10 @@ body {
     background-repeat: no-repeat;
 }
 header {
-    background-color: rgba(255, 255, 255, .3);
+    background-image: url(/img/colorado.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(8, 2, 35);
 }
 .navbar {
     /* border: solid 2px  rgb(0, 0, 0); */
@@ -17,6 +20,7 @@ header {
     float: right;
     margin-top: 50px;
     margin-right: 15px;
+    margin-bottom: -20px;
 }
 .navbar li {
     display: inline;
@@ -25,6 +29,7 @@ header {
 .hero-image {
     background-image: url(/img/face.jpeg);
     height: 50%;
+    margin-top: 20px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto;
@@ -56,11 +61,10 @@ h3 {
 FOOTER {
     color: aliceblue;
 }
-/* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 3px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 6px;
@@ -92,4 +96,11 @@ input[type=text], select, textarea {
 
   body, html {
     height: 100%;
+}
+footer {
+  background-color: rgba(180, 180, 180, .3);
+  width: 35%;
+}
+a {
+  color: rgb(255, 255, 255);
 }
