@@ -1,8 +1,10 @@
+
 .hero-image {
     background-image: url(../img/face.jpeg);
 }
 body {
     background-image: url(../img/skyline.jpg);
+    background-color: grey;
     background-repeat: no-repeat;
 }
 body, html {
